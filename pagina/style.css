@@ -1,14 +1,12 @@
 
-/* #listaProyectos{
-    max-width: 100%;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(8rem, 1fr));
-    grid-auto-rows: 6rem;
-} */
 
 main {
     padding: 10px;
     background-image: linear-gradient(to bottom right, #DCE8E0, #D2D8D6);
+}
+
+#titulo {
+    text-align: center;
 }
 
 #obras2021 {
