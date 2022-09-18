@@ -7,7 +7,7 @@ function login(){
         
     if(user == "Diego" && pass == "12345"){
 
-        window.location= "pagina.html";
+        window.location= "./pagina/pagina.html";
 
     
     }

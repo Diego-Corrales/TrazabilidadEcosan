@@ -3,7 +3,7 @@
         "ordendetrabajo": "0001",
         "obra": "Hospital Modular de emergencia",
         "cliente": "Gobierno de la ciudad de Buenos Aires",
-        "imagen": "./Img/vacunatorio.jpg"
+        "imagen": "./img/vacunatorio.jpg"
     },
     {
         "ordendetrabajo": "0002",
