@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <title>Segunda entrega del proyecto final</title>
+    
+</head>
+
+<body>
+    <header>
+
+    </header>
+    
+    <main class="w-100">
+        <h1 id="titulo">OFICINA TECNICA</h1>
+        
+        <hr>
+
+        <h2>NUESTRAS OBRAS 2021</h2>
+
+        <div class="container">
+            <div class="row">
+                <ul id="obras2021">
+
+                </ul>
+            </div>
+        </div>
+        
+        <hr>
+        
+        <h2>TRAZABILIDAD DE PROYECTOS</h2>
+        <section id="traza_Texto">
+            <p>En esta seccion se muestran los proyectos y obras en proceso de ejecucion</p>
+        </section>
+        
+        <hr>
+        <br>
+        
+        <h3>BASE DE DATOS</h3>
+        <hr>
+        <section id="listaProyectos">
+            
+        </section>
+        <hr>
+
+        <br>
+        <h4>FORMULARIO:</h4>
+        <section id="traza_Texto">
+            <p>Para ingresar un nuevo proyecto, 
+                complete el formulario con los datos correspondientes al proyecto
+                 e ingreselo a la base de datos haciendo click en el boton <strong>"INGRESAR PROYECTO"</strong>,
+                  a continuacion, presiones en <strong>"ACTUALIZAR"</strong> para recargar a lista.
+                <br><br> Para eliminar la lista, haga click en el boton <strong>"VACIAR LISTA DE PROYECTOS"</strong> y 
+                a continuacion, presiones en <strong>"ACTUALIZAR"</strong> para recargar a lista.</p>
+        </section>
+        
+        <input class="form-control my-2" id="input-tipo" type="text" placeholder="Ingrese el tipo de proyecto">
+        <input class="form-control my-2" id="input-ot" type="text" placeholder="Ingrese el numeor de OT">
+        <input class="form-control my-2" id="input-cliente" type="text" placeholder="Ingrese el nombre del cliente">
+        <input class="form-control my-2" id="input-solicito" type="text" placeholder="Ingrese el nombre de quien solicito el proyecto">
+        <input class="form-control my-2" id="input-fecha" type="text" placeholder="Ingrese la fecha de entrega del proyecto">
+        <div class="botones">
+            <button class="btn btn-primary" type="submit" id="btn-submit">INGRESAR PROYECTO</button>
+            <input class="btn btn-primary" type="button" id="btn-reload" value="ACTUALIZAR" onclick="location.reload()"/>
+            <button class="btn btn-primary" type="submit" id="btn-clear">VACIAR LISTA DE PROYECTOS</button>
+        </div>
+
+
+    </main>
+    <div id="loader" class="loader">
+        <h2>Cargando...</h2>
+    </div>
+    
+    <footer>
+
+    </footer>
+
+    <script src="app5.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+</body>
+</html>

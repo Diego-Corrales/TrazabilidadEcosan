@@ -1,0 +1,38 @@
+[
+    {
+        "ordendetrabajo": "0001",
+        "obra": "Hospital Modular de emergencia",
+        "cliente": "Gobierno de la ciudad de Buenos Aires",
+        "imagen": "./Img/vacunatorio.jpg"
+    },
+    {
+        "ordendetrabajo": "0002",
+        "obra": "Modulos Guardabarreras",
+        "cliente": "Trenes Argentinos",
+        "imagen": "./Img/OEO002-ECO-CN-MOD-054-REN.webp"
+    },
+    {
+        "ordendetrabajo": "0003",
+        "obra": "Modulos de seguridad",
+        "cliente": "AYSA",
+        "imagen": "./Img/AYSA_01.webp"
+    },
+    {
+        "ordendetrabajo": "0004",
+        "obra": "Vivienda Evolutiva",
+        "cliente": "Gobierno de la ciudad de Buenos Aires",
+        "imagen": "./Img/01.webp"
+    },
+    {
+        "ordendetrabajo": "0005",
+        "obra": "Casas Modulares",
+        "cliente": "Techint",
+        "imagen": "./Img/viv_ind01.webp"
+    },
+    {
+        "ordendetrabajo": "0006",
+        "obra": "Comisaria",
+        "cliente": "Policia Metropolitana",
+        "imagen": "./Img/ofi06.webp"
+    }
+]
