@@ -84,11 +84,11 @@ pedirProductos(true)
         productos.forEach((proyecto) => {
             const div = document.createElement('div')
             div.innerHTML = `
-                    <h4>Tipo de Proyecto: ${proyecto.tipo}</h4>
-                    <h5>Orden de trabajo n°: ${proyecto.ot}<h5>
-                    <h5>Cliente: ${proyecto.cliente}<h5>
-                    <h5>Solicito: ${proyecto.solicito}<h5>
-                    <h5>Fecha de entrega: ${proyecto.fecha}<h5>
+                    <h4>TIPOLOGIA DE PROYECTO: ${proyecto.tipo}</h4>
+                    <h5>ORDEN DE TRABAJO n°: ${proyecto.ot}<h5>
+                    <h5>CLIENTE: ${proyecto.cliente}<h5>
+                    <h5>PROYECTO SOLICITADO POR: ${proyecto.solicito}<h5>
+                    <h5>FECHA DE ENTREGA DE LA OBRA: ${proyecto.fecha}<h5>
             `
         
             proyList.append(div)
